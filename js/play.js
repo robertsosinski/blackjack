@@ -75,12 +75,12 @@ let splitStrategy = [
 * @return {String} the appropiate action to take, see `action` array on line #2 above.
 */
 function blackjack(one, two, deal) {
-  var play, pidx
-  let didx = deal - 2
+  var play, pidx;
+  let didx = deal - 2;
 
   // use split strategy
   if (one === two) {
-    play = splitStrategy
+    play = splitStrategy;
     pidx = one - 2;
   } else {
     // use soft strategy
